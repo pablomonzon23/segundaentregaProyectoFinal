@@ -116,15 +116,15 @@ border-radius: 6px;
 }
 
 @media (min-width:480px) and ( max-width:768){
-    .galeria-grilla{
+    .grilla-fotod{
         grid-template-columns: repeat(1,2fr);
         grid-template-rows: repeat(4, 40vw);
         background-color: white;
     }
 }
 @media (min-width:100px) and ( max-width:300){
-    .galeria-grilla{
-        grid-template-columns: repeat(1,2fr);
+    .grilla-fotos{
+        grid-template-columns: repeat(1,12fr);
         grid-template-rows: repeat(4, 40vw);
         background-color: black;
     }
